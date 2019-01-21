@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jan 21 00:32:26 2019
+# Process ID: 10908
+# Current directory: D:/Universidad/4/1/Semaforocruce
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10576 D:\Universidad\4\1\Semaforocruce\Semaforocruce.xpr
+# Log file: D:/Universidad/4/1/Semaforocruce/vivado.log
+# Journal file: D:/Universidad/4/1/Semaforocruce\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Universidad/4/1/Semaforocruce/Semaforocruce.xpr
+update_compile_order -fileset sources_1
+file mkdir D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sim_1/new/semaforocruce2_tb.vhd w ]
+add_files -fileset sim_1 D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sim_1/new/semaforocruce2_tb.vhd
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse D:/Universidad/4/1/semaforo1_tb.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+add_files -norecurse D:/Universidad/4/1/sem1.vhd
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top semaforocruce2_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top semaforocruce2 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation

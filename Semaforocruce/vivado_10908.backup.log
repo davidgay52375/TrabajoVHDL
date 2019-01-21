@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jan 21 00:32:26 2019
+# Process ID: 10908
+# Current directory: D:/Universidad/4/1/Semaforocruce
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10576 D:\Universidad\4\1\Semaforocruce\Semaforocruce.xpr
+# Log file: D:/Universidad/4/1/Semaforocruce/vivado.log
+# Journal file: D:/Universidad/4/1/Semaforocruce\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Universidad/4/1/Semaforocruce/Semaforocruce.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 803.043 ; gain = 70.410
+update_compile_order -fileset sources_1
+file mkdir D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sim_1/new/semaforocruce2_tb.vhd w ]
+add_files -fileset sim_1 D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sim_1/new/semaforocruce2_tb.vhd
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse D:/Universidad/4/1/semaforo1_tb.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+add_files -norecurse D:/Universidad/4/1/sem1.vhd
+update_compile_order -fileset sources_1
+set_property top semaforocruce2_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+set_property top semaforocruce2 [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Universidad/4/1/Semaforocruce/Semaforocruce.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'semaforocruce2_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Universidad/4/1/Semaforocruce/Semaforocruce.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj semaforocruce2_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sources_1/new/semaforocruce2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity semaforocruce2
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sim_1/new/semaforocruce2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity semaforocruce2_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Universidad/4/1/Semaforocruce/Semaforocruce.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto a0427019e74e45bea18a302ae8751076 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot semaforocruce2_tb_behav xil_defaultlib.semaforocruce2_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.semaforocruce2 [semaforocruce2_default]
+Compiling architecture behavioral of entity xil_defaultlib.semaforocruce2_tb
+Built simulation snapshot semaforocruce2_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Universidad/4/1/Semaforocruce/Semaforocruce.sim/sim_1/behav/xsim/xsim.dir/semaforocruce2_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/Universidad/4/1/Semaforocruce/Semaforocruce.sim/sim_1/behav/xsim/xsim.dir/semaforocruce2_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jan 21 01:05:19 2019. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Jan 21 01:05:19 2019...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 876.406 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Universidad/4/1/Semaforocruce/Semaforocruce.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "semaforocruce2_tb_behav -key {Behavioral:sim_1:Functional:semaforocruce2_tb} -tclbatch {semaforocruce2_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.

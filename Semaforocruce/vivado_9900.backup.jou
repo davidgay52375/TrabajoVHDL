@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Jan  9 13:52:46 2019
+# Process ID: 9900
+# Current directory: D:/Universidad/4/1/Semaforocruce
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18264 D:\Universidad\4\1\Semaforocruce\Semaforocruce.xpr
+# Log file: D:/Universidad/4/1/Semaforocruce/vivado.log
+# Journal file: D:/Universidad/4/1/Semaforocruce\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Universidad/4/1/Semaforocruce/Semaforocruce.xpr
+update_compile_order -fileset sources_1

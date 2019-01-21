@@ -1,0 +1,467 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 10908
+License: Customer
+
+Current time: 	Mon Jan 21 00:32:46 CET 2019
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 17 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	David Gay
+User home directory: C:/Users/GL552VW
+User working directory: D:/Universidad/4/1/Semaforocruce
+User country: 	ES
+User language: 	es
+User locale: 	es_ES
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/GL552VW/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/GL552VW/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/GL552VW/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Universidad/4/1/Semaforocruce/vivado.log
+Vivado journal file location: 	D:/Universidad/4/1/Semaforocruce/vivado.jou
+Engine tmp dir: 	D:/Universidad/4/1/Semaforocruce/.Xil/Vivado-10908-DESKTOP-JE6AJF5
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	206 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 488 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: D:\Universidad\4\1\Semaforocruce\Semaforocruce.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 50 MB (+50313kb) [00:00:08]
+// [Engine Memory]: 472 MB (+343652kb) [00:00:08]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project D:/Universidad/4/1/Semaforocruce/Semaforocruce.xpr 
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/Universidad/4/1/Semaforocruce/Semaforocruce.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 65 MB (+12641kb) [00:00:11]
+// [Engine Memory]: 521 MB (+26491kb) [00:00:11]
+// [GUI Memory]: 74 MB (+6310kb) [00:00:12]
+// [Engine Memory]: 559 MB (+12348kb) [00:00:12]
+// [GUI Memory]: 80 MB (+2519kb) [00:00:13]
+// HMemoryUtils.trashcanNow. Engine heap size: 583 MB. GUI used memory: 39 MB. Current time: 1/21/19 12:32:49 AM CET
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 803.043 ; gain = 70.410 
+// Project name: Semaforocruce; location: D:/Universidad/4/1/Semaforocruce; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 589 MB (+2331kb) [00:00:17]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, semaforocruce2(Behavioral) (semaforocruce2.vhd)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, semaforocruce2(Behavioral) (semaforocruce2.vhd)]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 107 seconds
+selectCodeEditor("semaforocruce2.vhd", 144, 147); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, semaforocruce2(Behavioral) (semaforocruce2.vhd)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, semaforocruce2(Behavioral) (semaforocruce2.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, semaforocruce2(Behavioral) (semaforocruce2.vhd)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, semaforocruce2(Behavioral) (semaforocruce2.vhd)]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, semaforocruce2(Behavioral) (semaforocruce2.vhd)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, semaforocruce2(Behavioral) (semaforocruce2.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, semaforocruce2(Behavioral) (semaforocruce2.vhd)]", 7, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+// [Engine Memory]: 620 MB (+1354kb) [00:02:53]
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+// HMemoryUtils.trashcanNow. Engine heap size: 620 MB. GUI used memory: 46 MB. Current time: 1/21/19 12:35:33 AM CET
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 16 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "semaforocruce2_tb"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sim_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sim_1/new 
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 30 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: close [ open D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sim_1/new/semaforocruce2_tb.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sim_1/new/semaforocruce2_tb.vhd 
+// I (ck): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 660 MB (+9108kb) [00:03:30]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 660 MB. GUI used memory: 45 MB. Current time: 1/21/19 12:36:08 AM CET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, semaforocruce2_tb(Behavioral) (semaforocruce2_tb.vhd)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, semaforocruce2_tb(Behavioral) (semaforocruce2_tb.vhd)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("semaforocruce2_tb.vhd", 15, 79); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 0, 40); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 15, 111); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 16, 75); // ce (w, ck)
+// [GUI Memory]: 86 MB (+1665kb) [00:05:28]
+// Elapsed time: 160 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ad (aj, ck)
+// [GUI Memory]: 93 MB (+2366kb) [00:09:36]
+// Elapsed time: 158 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+setFileChooser("D:/Universidad/4/1/semaforo1_tb.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 10 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 -norecurse D:/Universidad/4/1/semaforo1_tb.vhd 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 98 MB (+496kb) [00:09:52]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_NETLIST_BLOCK_DESIGN, "Add or create design sources"); // a (o, c)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+setFileChooser("D:/Universidad/4/1/sem1.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 7 seconds
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse D:/Universidad/4/1/sem1.vhd 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, semaforo1_tb(Behavioral) (semaforo1_tb.vhd)]", 7, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, semaforo1_tb(Behavioral) (semaforo1_tb.vhd)]", 7, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sem1(Behavioral) (sem1.vhd)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sem1(Behavioral) (sem1.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sem1.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sem1.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sem1.vhd", 4); // k (j, ck)
+// Elapsed time: 65 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sem1.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 111, 168); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 356, 167); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sem1.vhd", 4); // k (j, ck)
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2.vhd", 1); // k (j, ck)
+// [GUI Memory]: 103 MB (+73kb) [00:14:27]
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 171, 186); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sem1.vhd", 4); // k (j, ck)
+// Elapsed time: 39 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+// Elapsed time: 46 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("semaforocruce2_tb.vhd", 89, 194); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 337, 177); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("semaforocruce2_tb.vhd", 3, 195); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 97, 230); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 108, 258); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 105, 252); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 78, 227); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 70, 243); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 82, 227); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+// Elapsed time: 103 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 57, 253); // ce (w, ck)
+typeControlKey((HResource) null, "semaforocruce2_tb.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 187, 323); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 183, 320); // ce (w, ck)
+typeControlKey((HResource) null, "semaforocruce2_tb.vhd", 'v'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("semaforocruce2_tb.vhd", 27, 212); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 155, 274); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 83, 355); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 96, 379); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 151, 196); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+// Elapsed time: 97 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 374, 388); // ce (w, ck)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "semaforocruce2_tb.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "semaforocruce2_tb.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 22 seconds
+typeControlKey((HResource) null, "semaforocruce2_tb.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "semaforocruce2_tb.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "semaforocruce2_tb.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "semaforocruce2_tb.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "semaforocruce2_tb.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 136, 500); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 166, 493); // ce (w, ck)
+// Elapsed time: 52 seconds
+typeControlKey((HResource) null, "semaforocruce2_tb.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "semaforocruce2_tb.vhd", 'v'); // ce (w, ck)
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 3043ms to process. Increasing delay to 4000 ms.
+// [GUI Memory]: 109 MB (+1371kb) [00:27:08]
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 79, 301); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("semaforocruce2_tb.vhd", 54, 443); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectCodeEditor("semaforo1_tb.vhd", 25, 335); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("semaforo1_tb.vhd", 27, 330); // ce (w, ck)
+selectCodeEditor("semaforo1_tb.vhd", 28, 332); // ce (w, ck)
+typeControlKey((HResource) null, "semaforo1_tb.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+typeControlKey((HResource) null, "semaforocruce2_tb.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 55, 483); // ce (w, ck)
+selectCodeEditor("semaforocruce2_tb.vhd", 393, 483); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+// Elapsed time: 53 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforo1_tb.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "semaforocruce2_tb.vhd", 2); // k (j, ck)
+// Elapsed time: 93 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, semaforocruce2_tb(Behavioral) (semaforocruce2_tb.vhd)]", 9, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top semaforocruce2_tb [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, semaforocruce2(Behavioral) (semaforocruce2.vhd)]", 3, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top semaforocruce2 [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true); // u (O, ck) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true); // u (O, ck) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// aj (ck): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// e (ck):  Run Simulation : addNotify
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_simulation 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Universidad/4/1/Semaforocruce/Semaforocruce.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' 
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'semaforocruce2_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Universidad/4/1/Semaforocruce/Semaforocruce.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj semaforocruce2_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sources_1/new/semaforocruce2.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity semaforocruce2 INFO: [VRFC 10-163] Analyzing VHDL file "D:/Universidad/4/1/Semaforocruce/Semaforocruce.srcs/sim_1/new/semaforocruce2_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity semaforocruce2_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Universidad/4/1/Semaforocruce/Semaforocruce.sim/sim_1/behav/xsim' 
+// Tcl Message: Built simulation snapshot semaforocruce2_tb_behav 
+// Tcl Message:  ****** Webtalk v2018.2 (64-bit)   **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018   **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source D:/Universidad/4/1/Semaforocruce/Semaforocruce.sim/sim_1/behav/xsim/xsim.dir/semaforocruce2_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-186] 'D:/Universidad/4/1/Semaforocruce/Semaforocruce.sim/sim_1/behav/xsim/xsim.dir/semaforocruce2_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jan 21 01:05:19 2019. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.2/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Mon Jan 21 01:05:19 2019... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 876.406 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Universidad/4/1/Semaforocruce/Semaforocruce.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "semaforocruce2_tb_behav -key {Behavioral:sim_1:Functional:semaforocruce2_tb} -tclbatch {semaforocruce2_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.2 
+// HMemoryUtils.trashcanNow. Engine heap size: 660 MB. GUI used memory: 46 MB. Current time: 1/21/19 1:06:08 AM CET
+// Elapsed time: 92 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
